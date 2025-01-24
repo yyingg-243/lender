@@ -3,12 +3,7 @@ public class Loan {
     private int amount;
     private boolean isPaid;
     private double interestRate;
-    static private double maxLoanAmount;
-
-    public static double getMaxLoanAmount() {
-        return maxLoanAmount;
-    }
-
+    
     public Loan(String borrower, int amount, double interestRate) {
         this.borrower = borrower;
         this.amount = amount;
